@@ -45,7 +45,7 @@ print("olá meu nome é "+nome+ "tenho "+str(idade)+" anos.") #Concatenação s�
 
 print(f"olá meu nome é {nome}, tenho {idade} anos.")
 '''
-
+'''
 nome = input("Digite seu nome ")
 idade = int(input("Digite a sua idade "))
 peso = float(input("Digite a seu peso "))
@@ -57,3 +57,18 @@ print(f"Olá meu nome é {nome}, tenho {idade} anos, meu peso é {peso} e tenho 
 print("Olá meu nome é ",nome,", tenho ",idade," anos, meu peso é ",peso," e tenho ",altura," de altura") 
 #terceiro tipo de concatenação
 print("Olá meu nome é ",str(nome),", tenho ",str(idade)," anos, meu peso é ",str(peso)," e tenho ",str(altura)," de altura") #terceiro tipo de concatenação
+'''
+
+#Declaração de variavel
+nome="jose"
+
+#Converter tipo de variavel
+valor=15
+valor = str(valor)
+
+# restringir os dados 
+idade = int(input("Digite a sua idade "))
+
+
+#Git 
+
