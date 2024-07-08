@@ -1,0 +1,13 @@
+import os
+import time 
+
+cont = int(input("digite um numero inteiro: "))
+
+while cont >=0:
+    os.system('cls') #limpar o terminal
+    print("Contagem regressiva: ",cont,"...")
+    time.sleep(1) #atrasa o proximo comando
+    cont -= 1
+
+os.system("cls")
+print("BOOOOOOOOM")
